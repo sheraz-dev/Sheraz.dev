@@ -1,0 +1,61 @@
+.Grid_Container{
+    display: grid;
+    width: 270px;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: 50px 150px 300px 50px ;
+    grid-template-areas:
+    "Header Header Header Header"
+    "Content Content Content Content"
+    "Content1 Content1 Content1 Content1"
+    "Footer Footer Footer Footer";
+}
+
+.Header{
+    grid-area: Header;
+    background-color: black;
+    padding: 20px;
+}
+
+.Main1{
+    grid-area: Content;
+    background-color: black;
+    color: black;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.Main2{
+    grid-area: Content1;
+    background-color: black;
+    color: black;
+    text-align: right;
+
+    padding-right: 20px;
+}
+
+.Footer{
+    grid-area: Footer;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.Light{
+    color: white;
+    background-color: #A5A5A5;
+}
+
+.Dark{
+    color: white;
+    background-color: #333333;
+}
+
+.Orange{
+    color: white;
+    background-color: orange;
+}

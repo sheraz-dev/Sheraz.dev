@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Quiz2.css">
+
+</head>
+<body>
+    <div class="Grid_Container">
+        <header class="Header">
+            <button><ul><li></li></ul></button>
+        </header>
+
+        <main class="Main1"><p style="color: antiquewhite;">38,670/50,000</p>
+            <input style="width: auto; height: 40px; background-color: black; color: aliceblue;" type="text" id="results">
+        </main>
+
+        <main class="Main2">
+            <button onclick="clearButtons('AC')" class="Light">AC</button>
+            <button onclick="getButtons('+/-')" class="Light">+/-</button>
+            <button onclick="getButtons('%')" class="Light">%</button>
+            <button onclick="getButtons('/')" class="Orange">/</button>
+            <br>
+            <button onclick="getButtons('7')" class="Dark">7</button>
+            <button onclick="getButtons('8')" class="Dark">8</button>
+            <button onclick="getButtons('9')" class="Dark">9</button>S
+            <button onclick="getButtons('*')" class="Orange">*</button>
+            <br>
+            <button onclick="getButtons('4')" class="Dark">4</button>
+            <button onclick="getButtons('5')" class="Dark">5</button>
+            <button onclick="getButtons('6')" class="Dark">6</button>
+            <button onclick="getButtons('-')" class="Orange">-</button>
+            <br>
+            <button onclick="getButtons('1')" class="Dark">1</button>
+            <button onclick="getButtons('2')" class="Dark">2</button>
+            <button onclick="getButtons('3')" class="Dark">3</button>
+            <button onclick="getButtons('+')" class="Orange">+</button>
+            <br>
+            <button onclick="getButtons('cal')" class="Dark">cal</button>
+            <button onclick="getButtons('0')" class="Dark">0</button>
+            <button onclick="getButtons('.')" class="Dark">.</button>
+            <button onclick="getCalculations('=')" class="Orange">=</button>
+        </main>
+        <footer class="Footer"><p style="text-align: center;">---------------</p></footer>
+    </div>
+    <script src="index.js"></script>
+</body></html>
